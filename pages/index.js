@@ -1,23 +1,12 @@
 import Navbar from "../components/Navbar";
+import Expertise from "../components/Expertise";
 
 export default function Home() {
   return (
     <div>
       <Navbar />
-      <main className="flex flex-col items-center justify-center h-screen bg-gray-100">
-        <h1 className="text-4xl font-bold text-blue-600">Testing Automatic 🚀</h1>
-        <p className="text-lg text-gray-500">Product Manager | UX Designer</p>
-      </main>
-    </div>
-  );
-}
-
-import Introduction from "../components/Introduction";
-
-export default function Home() {
-  return (
-    <div>
-      <Introduction />
+      <Expertise />
+      <h1 className="text-4xl font-bold text-center">Welcome to My Website</h1>
     </div>
   );
 }
