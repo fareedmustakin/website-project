@@ -13,6 +13,9 @@ export default function Home() {
       <Introduction />
       <Expertise />
       <ProfessionalToolkit />
+      <EducationExperience />
+      <Testimonials />
+      <Contact />
       {/* Add other components here */}
     </div>
   );
